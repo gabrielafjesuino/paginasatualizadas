@@ -12,119 +12,6 @@
     --laranja: #F37500;
 }
 
-/* inicio >> fonts */
-
-.poppins-thin {
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-
-  /* end >> fonts */
-
-
 body{
     background-color: var(--laranja);
 }  
@@ -432,12 +319,11 @@ a {
     padding-bottom: 35px;
 }
 
-/* rodapé */
+/* Início - Rodapé */
 
 footer {
     background-color: var(--branco);
     padding-top: 60px;
-    margin-top: 200px;
 }
 
 .logo2 {
@@ -452,7 +338,7 @@ footer {
 }
 
 .tam {
-    width: 62%;
+    width: 67%;
 }
 
 .tam2 {
@@ -479,10 +365,6 @@ footer {
     align-items: center;
 }
 
-.margin {
-    margin-top: -17.2px !important;
-}
-
 .imgfooter {
     width: 30px;
 }
@@ -490,6 +372,17 @@ footer {
 .alt {
     width: 35px;
 }
+
+.margin {
+    margin-bottom: 18px !important;
+}
+
+/* Fim - Rodapé */
+
+.alt {
+    width: 35px;
+}
+
 th {
     color: white;
     font-weight: bold;
@@ -704,56 +597,12 @@ body, html {
 .btn-save2:hover {
     background-color: #ff1b1b;
 }
+
 @media (max-width: 426px) {
-
-    /* Início - Cabeçalho */
-
-    header {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-
-    .logo1 {
-        width: 150px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .group {
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 14px;
-    }
-
-    .text-nav {
-        padding-left: 0;
-        font-size: 15px;
-    }
-    
-
-    .aprovacaoONG {
-        background-color: white;
-        padding: 20px;
-        width: 90%; /* Ajusta para ocupar 90% da tela */
-        max-width: 700px; /* Limita a largura máxima */
-        border-radius: 15px;
-        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
-        margin: 20px auto;
-    }
-
-
-
-    .btn-download {
-        display: flex;
-        justify-content: flex-start !important; /* Garante que vá para a esquerda */
-        margin-left: 10px !important; /* Ajusta margem para garantir alinhamento */
-        align-items: center;
-        position: relative !important;
-        left: 0 !important;
-        right: auto !important;
+    th {
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 17px;
     }
 }
 
